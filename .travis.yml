@@ -4,7 +4,7 @@ osx_image: xcode9.3
 
 before_install:
   - brew tap juhanikataja/homebrew-elmerfem 
-  - brew tap Homebrew/homebrew-science
+  # - brew tap Homebrew/homebrew-science
 # && brew update && brew bundle
 
 script:
