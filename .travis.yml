@@ -8,6 +8,7 @@ before_install:
 # && brew update && brew bundle
 
 script:
+  - brew cask uninstall oclint
   - brew install elmer --HEAD --with-elmerice --without-mumps --verbose
 
 notifications:
