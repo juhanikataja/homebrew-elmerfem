@@ -8,7 +8,7 @@ before_install:
 # && brew update && brew bundle
 
 script:
-  - brew install elmer --HEAD --with-elmerice --without-mumps
+  - brew install elmer --HEAD --with-elmerice --without-mumps --verbose
 
 notifications:
   email: change
